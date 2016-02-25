@@ -108,5 +108,7 @@ var alertPrice = function(){
   var place2=document.getElementById('place2').value
   var name=document.getElementById('name').value
   var date=document.getElementById('date').value
-  alert("Hello " + name + ", the price for your destination from " + place1 + " to " + place2 + " is " + flightPrice() + " at " + date)
+  var date2=document.getElementById('date2').value
+  var price = flightPrice()
+  alert("Hello " + name + ", the price for your destination from " + place1 + " to " + place2 + " and back is " + price*2 + " at " + date + " to " + date2 )
 }
