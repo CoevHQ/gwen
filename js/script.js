@@ -109,6 +109,8 @@ var alertPrice = function(){
   var name=document.getElementById('name').value
   var date=document.getElementById('date').value
   var date2=document.getElementById('date2').value
+  var child=document.getElementById('child').checked
+  var amount=document.getElementById('amount').value
   var price = flightPrice()
-  alert("Hello " + name + ", the price for your destination from " + place1 + " to " + place2 + " and back is " + price*2 + " Pesos" + " at " + date + " to " + date2 )
+  alert("Hello " + name + ", the price for your destination from " + place1 + " to " + place2 + " and back is " + price*2 + " Pesos" + " at " + date + " to " + date2 ". You will have children in your package and the total price is: " + amount*(price*2) + "Pesos." )
 }
