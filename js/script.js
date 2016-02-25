@@ -104,5 +104,7 @@ else if(from=="Japan"&&to=="New York"){
   }
 }
 var alertPrice = function(){
-  alert("The price for your destination is " + flightPrice())
+  var name=document.getElementById('name').value
+  var date=document.getElementById('date').value
+  alert("Hello "+name+" The price for your destination is " + flightPrice() + " at " + date)
 }
