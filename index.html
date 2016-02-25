@@ -38,32 +38,27 @@
       </nav>
       
       <div class="row">
-        <div class="col-md-6">
           <center>
-            <h2>From:</h2>
+            <h3>Name</h3>
+            <input type="text" id="name">
+            <h3>Date:</h3>
+            <input type="date" id="date">
             <hr>
-            <select name="place1" id="place1">
+            <h3>From:</h3><select name="place1" id="place1">
               <option value="France">France</option>
               <option value="New York">New York</option>
               <option value="Australia">Australia</option>
               <option value="Hawaii">Hawaii</option>
               <option value="Japan">Japan</option>
             </select>
+            <h3>To:</h3><select name="place2" id="place2">
+                <option value="France">France</option>
+                <option value="New York">New York</option>
+                <option value="Australia">Australia</option>
+                <option value="Hawaii">Hawaii</option>
+                <option value="Japan">Japan</option>
+              </select>
           </center>
-        </div>
-        <div class="col-md-6">
-          <center>
-          <h2>Going to:</h2>
-          <hr>
-            <select name="place2" id="place2">
-              <option value="France">France</option>
-              <option value="New York">New York</option>
-              <option value="Australia">Australia</option>
-              <option value="Hawaii">Hawaii</option>
-              <option value="Japan">Japan</option>
-            </select>
-          </center>
-        </div>
       </div>
       <div class="row">
         <center><button class="btn btn-success" onmousedown="alertPrice()">Submit</button></center>
